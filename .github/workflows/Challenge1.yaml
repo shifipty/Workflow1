@@ -1,5 +1,5 @@
 name: Challenge1
-on: workflow_dispach
+on: workflow_disptach
 
 jobs:
     job1:
