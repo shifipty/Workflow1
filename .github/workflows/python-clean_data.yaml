@@ -11,7 +11,7 @@ jobs:
      with:
       python-version: "3.10"
    - name: check python --version
-          run: python --version
+     run: python --version
    - name: Checkout code
      uses: actions/checkout@v4
    - name: clean_data
@@ -24,6 +24,6 @@ jobs:
       python cleandata.py
       ls -al
    - name: train_test_dataset
-      run: |
+     run: |
         pip install scikit-learn joblib
         python ModelCleaning/train_test_dataset.py
